@@ -4,7 +4,7 @@ main = Blueprint('main', __name__)  # Création du Blueprint
 
 @main.route('/')
 def home():
-    return render_template('index.html')
+    return render_template('starter-page.html')
 
 @main.route('/blog')
 def blog():
